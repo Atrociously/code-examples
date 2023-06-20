@@ -14,3 +14,6 @@ export function isPalindrome2(input) {
     .join("");
   return input == reversed;
 }
+
+console.log(isPalindrome("abcba"));
+console.log(isPalindrome("abc"));
